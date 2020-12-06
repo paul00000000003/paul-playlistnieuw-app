@@ -12,8 +12,7 @@ class App extends Component {
             <ul className="routingUlLijstje">
               <li className="routingUlLijstjeLine">
                 <Link to={"/"} className="nav-link">
-                  {" "}
-                  Home{" "}
+                  Home
                 </Link>
               </li>
               <li className="routingUlLijstjeLine">
