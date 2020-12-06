@@ -1,102 +1,104 @@
 .navbar {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  border: 3px solid black;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 3px solid black;
 }
 
 .song-header {
-  background-color: orange;
-  height: 60px;
+    background-color: orange;
+    height: 60px;
 }
 
 .header {
-  width: 80%;
-  text-align: center;
-  margin: auto;
-  margin-top: 0px;
-  padding-top: 0px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 .figure {
-  width: 20%;
+    width: 20%;
 }
 
 .lijsth {
-  width: 80%;
-  font-size: 30px;
-  font-weight: normal;
+    width: 80%;
+    font-size: 30px;
+    font-weight: normal;
 }
 
 .lijsth2 {
-  width: 80%;
-  font-size: 30px;
-  font-weight: bold;
+    width: 80%;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .breedte {
-  width: 100%;
+    width: 100%;
 }
 
 .raster {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[5];
-      grid-template-columns: repeat(5, 1fr);
-  -ms-grid-rows: ("30px")[1];
-      grid-template-rows: repeat(1, "30px");
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: "30px";
+    grid-template-rows: "30px";
 }
 
 .song-row__text,
 .submit-button {
-  font-size: 20px;
-  width: 80%;
-  height: 1.5em;
+    font-size: 20px;
+    width: 80%;
+    height: 1.5em;
 }
 
 .ozselectie {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .song-row__select {
-  font-size: 20px;
-  height: 1.5em;
+    font-size: 20px;
+    height: 1.5em;
 }
 
 .verwijderButton {
-  -webkit-transform: translateY(-30px);
-          transform: translateY(-30px);
-  -webkit-transform: translateX(-200px);
-          transform: translateX(-200px);
-  font-size: 20px;
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+    -webkit-transform: translateX(-200px);
+    transform: translateX(-200px);
+    font-size: 20px;
 }
 
 .titellabel {
-  width: 400px;
+    width: 400px;
 }
 
 .opschuiven {
-  width: 125px;
+    width: 125px;
 }
 
 .opschuifcontainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 1.2em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 1.2em;
 }
 
 .routingUlLijstje {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 0px;
-  padding: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 0px;
+    padding: 0px;
 }
 
 .routingUlLijstjeLine {
-  list-style: none;
-  margin-right: 50px;
+    list-style: none;
+    margin-right: 50px;
 }
+
+
 /*# sourceMappingURL=songOverview.css.map */
