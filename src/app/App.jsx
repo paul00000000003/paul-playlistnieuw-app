@@ -24,8 +24,12 @@ class App extends Component {
             </ul>
           </nav>
           <Switch>
-            <Route exact path="/" component={SongOverview} />
-            <Route path="/about" component={About} />
+            <Route exact path="/">
+              <SongOverview />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
           </Switch>
         </div>
       </Router>
