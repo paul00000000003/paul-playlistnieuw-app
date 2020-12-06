@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,YAAY,CAAC;EACT,gBAAgB,EAAE,MAAM;EACxB,MAAM,EAAE,IAAI;CACf;;AAED,AAAA,OAAO,CAAC;EACJ,KAAK,EAAE,GAAG;CACb;;AAED,AAAA,QAAQ,CAAC;EACL,KAAK,EAAE,IAAI;CACd;;AAED,AAAA,OAAO,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,cAAc;EACrC,kBAAkB,EAAE,iBAAiB;CACxC",
-    "sources": [
-        "SongInvoer.scss"
-    ],
-    "names": [],
-    "file": "SongInvoer.css"
-}

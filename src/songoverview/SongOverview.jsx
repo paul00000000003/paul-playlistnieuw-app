@@ -1,9 +1,6 @@
 import React from "react";
 import "./songOverview.css";
-import SongList from "./SongList";
-import Form from "./Form";
-import SongWeergaveSelecties from "./SongWeergaveSelecties";
-
+/*
 let basisUrl = "https://jsonbox.io/box_3c978bc3195303aae65d";
 let data = {};
 let url = "";
@@ -49,6 +46,7 @@ const pasCaseArtiestenNaamAan = (artiestenNaam) => {
   });
   return artiestenNaam;
 };
+*/
 
 class SongOverview extends React.Component {
   /*
